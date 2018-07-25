@@ -1,0 +1,106 @@
+Traceback (most recent call last):
+  File "file_server.py", line 20, in <module>
+    httpd = socketserver.TCPServer(("", port), Handler)
+  File "/Users/pde-rent/.brew/Cellar/python/3.6.5_1/Frameworks/Python.framework/Versions/3.6/lib/python3.6/socketserver.py", line 453, in __init__
+    self.server_bind()
+  File "/Users/pde-rent/.brew/Cellar/python/3.6.5_1/Frameworks/Python.framework/Versions/3.6/lib/python3.6/socketserver.py", line 467, in server_bind
+    self.socket.bind(self.server_address)
+OSError: [Errno 48] Address already in use
+Expecting data on 127.0.0.1:8083 [TCP]
+Sending data to 127.0.0.1:8082 [WebSocket]
+Traceback (most recent call last):
+  File "socket_bridge.py", line 39, in <module>
+    wsock = websocket.create_connection(address)
+AttributeError: module 'websocket' has no attribute 'create_connection'
+URI ws://127.0.0.1:8082 is now open for web communication
+Traceback (most recent call last):
+  File "websocket_pipe.py", line 50, in <module>
+    application.listen(8082)
+  File "/Users/pde-rent/.brew/lib/python3.6/site-packages/tornado/web.py", line 1986, in listen
+    server.listen(port, address)
+  File "/Users/pde-rent/.brew/lib/python3.6/site-packages/tornado/tcpserver.py", line 144, in listen
+    sockets = bind_sockets(port, address=address)
+  File "/Users/pde-rent/.brew/lib/python3.6/site-packages/tornado/netutil.py", line 163, in bind_sockets
+    sock.bind(sockaddr)
+OSError: [Errno 48] Address already in use
+Traceback (most recent call last):
+  File "file_server.py", line 20, in <module>
+    httpd = socketserver.TCPServer(("", port), Handler)
+  File "/Users/pde-rent/.brew/Cellar/python/3.6.5_1/Frameworks/Python.framework/Versions/3.6/lib/python3.6/socketserver.py", line 453, in __init__
+    self.server_bind()
+  File "/Users/pde-rent/.brew/Cellar/python/3.6.5_1/Frameworks/Python.framework/Versions/3.6/lib/python3.6/socketserver.py", line 467, in server_bind
+    self.socket.bind(self.server_address)
+OSError: [Errno 48] Address already in use
+Expecting data on 127.0.0.1:8083 [TCP]
+Sending data to 127.0.0.1:8082 [WebSocket]
+Traceback (most recent call last):
+  File "socket_bridge.py", line 39, in <module>
+    wsock = websocket.create_connection(address)
+AttributeError: module 'websocket' has no attribute 'create_connection'
+URI ws://127.0.0.1:8082 is now open for web communication
+Traceback (most recent call last):
+  File "websocket_pipe.py", line 50, in <module>
+    application.listen(8082)
+  File "/Users/pde-rent/.brew/lib/python3.6/site-packages/tornado/web.py", line 1986, in listen
+    server.listen(port, address)
+  File "/Users/pde-rent/.brew/lib/python3.6/site-packages/tornado/tcpserver.py", line 144, in listen
+    sockets = bind_sockets(port, address=address)
+  File "/Users/pde-rent/.brew/lib/python3.6/site-packages/tornado/netutil.py", line 163, in bind_sockets
+    sock.bind(sockaddr)
+OSError: [Errno 48] Address already in use
+Expecting data on 127.0.0.1:8083 [TCP]
+Sending data to 127.0.0.1:8082 [WebSocket]
+Traceback (most recent call last):
+  File "socket_bridge.py", line 39, in <module>
+    wsock = websocket.create_connection(address)
+AttributeError: module 'websocket' has no attribute 'create_connection'
+Traceback (most recent call last):
+  File "file_server.py", line 20, in <module>
+    httpd = socketserver.TCPServer(("", port), Handler)
+  File "/Users/pde-rent/.brew/Cellar/python/3.6.5_1/Frameworks/Python.framework/Versions/3.6/lib/python3.6/socketserver.py", line 453, in __init__
+    self.server_bind()
+  File "/Users/pde-rent/.brew/Cellar/python/3.6.5_1/Frameworks/Python.framework/Versions/3.6/lib/python3.6/socketserver.py", line 467, in server_bind
+    self.socket.bind(self.server_address)
+OSError: [Errno 48] Address already in use
+Expecting data on 127.0.0.1:8083 [TCP]
+Sending data to 127.0.0.1:8082 [WebSocket]
+Traceback (most recent call last):
+  File "socket_bridge.py", line 39, in <module>
+    wsock = websocket.create_connection(address)
+AttributeError: module 'websocket' has no attribute 'create_connection'
+URI ws://127.0.0.1:8082 is now open for web communication
+Traceback (most recent call last):
+  File "websocket_pipe.py", line 50, in <module>
+    application.listen(8082)
+  File "/Users/pde-rent/.brew/lib/python3.6/site-packages/tornado/web.py", line 1986, in listen
+    server.listen(port, address)
+  File "/Users/pde-rent/.brew/lib/python3.6/site-packages/tornado/tcpserver.py", line 144, in listen
+    sockets = bind_sockets(port, address=address)
+  File "/Users/pde-rent/.brew/lib/python3.6/site-packages/tornado/netutil.py", line 163, in bind_sockets
+    sock.bind(sockaddr)
+OSError: [Errno 48] Address already in use
+Traceback (most recent call last):
+  File "file_server.py", line 20, in <module>
+    httpd = socketserver.TCPServer(("", port), Handler)
+  File "/Users/pde-rent/.brew/Cellar/python/3.6.5_1/Frameworks/Python.framework/Versions/3.6/lib/python3.6/socketserver.py", line 453, in __init__
+    self.server_bind()
+  File "/Users/pde-rent/.brew/Cellar/python/3.6.5_1/Frameworks/Python.framework/Versions/3.6/lib/python3.6/socketserver.py", line 467, in server_bind
+    self.socket.bind(self.server_address)
+OSError: [Errno 48] Address already in use
+Expecting data on 127.0.0.1:8083 [TCP]
+Sending data to 127.0.0.1:8082 [WebSocket]
+Traceback (most recent call last):
+  File "socket_bridge.py", line 39, in <module>
+    wsock = websocket.create_connection(address)
+AttributeError: module 'websocket' has no attribute 'create_connection'
+URI ws://127.0.0.1:8082 is now open for web communication
+Traceback (most recent call last):
+  File "websocket_pipe.py", line 50, in <module>
+    application.listen(8082)
+  File "/Users/pde-rent/.brew/lib/python3.6/site-packages/tornado/web.py", line 1986, in listen
+    server.listen(port, address)
+  File "/Users/pde-rent/.brew/lib/python3.6/site-packages/tornado/tcpserver.py", line 144, in listen
+    sockets = bind_sockets(port, address=address)
+  File "/Users/pde-rent/.brew/lib/python3.6/site-packages/tornado/netutil.py", line 163, in bind_sockets
+    sock.bind(sockaddr)
+OSError: [Errno 48] Address already in use

@@ -1,0 +1,13 @@
+0000000100002ab9	e8 02 42 00 00 	callq	_ft_memalloc
+0000000100005c50	e8 91 6a 00 00 	callq	0x10000c6e6 ## symbol stub for: _malloc
+_ft_memalloc:
+0000000100006cd0	e8 11 5a 00 00 	callq	0x10000c6e6 ## symbol stub for: _malloc
+0000000100006d7f	e8 62 59 00 00 	callq	0x10000c6e6 ## symbol stub for: _malloc
+0000000100006dec	e8 f5 58 00 00 	callq	0x10000c6e6 ## symbol stub for: _malloc
+0000000100007460	e8 81 52 00 00 	callq	0x10000c6e6 ## symbol stub for: _malloc
+0000000100007703	e8 de 4f 00 00 	callq	0x10000c6e6 ## symbol stub for: _malloc
+00000001000078b3	e8 2e 4e 00 00 	callq	0x10000c6e6 ## symbol stub for: _malloc
+0000000100008e08	e8 d9 38 00 00 	callq	0x10000c6e6 ## symbol stub for: _malloc
+0000000100009270	e8 71 34 00 00 	callq	0x10000c6e6 ## symbol stub for: _malloc
+000000010000bd00	e8 e1 09 00 00 	callq	0x10000c6e6 ## symbol stub for: _malloc
+000000010000bde2	e8 ff 08 00 00 	callq	0x10000c6e6 ## symbol stub for: _malloc

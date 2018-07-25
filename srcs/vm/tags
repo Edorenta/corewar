@@ -1,0 +1,59 @@
+Mcorewar	corewar.c	/^int		main(int argc, char *argv[])$/
+add_process	process.c	/^void	add_process(t_vm *vm, t_proc *proc)$/
+arg_available	check_ocp.c	/^int		arg_available(int ocp_chunk, int opcode, int /
+check_arg	check_arg.c	/^int		check_arg(t_vm *vm, int argc, char **argv)$/
+check_ocp	check_ocp.c	/^int		check_ocp(int ocp, int opcode)$/
+check_params	corewar.c	/^int		check_params(t_op *op)$/
+check_reg	corewar.c	/^int		check_reg(int nb)$/
+count_octet	tools.c	/^int		count_octet(int octet, t_optab *ref)$/
+create_op	parse_op.c	/^void		create_op(t_proc *proc, char data)$/
+create_players	player.c	/^void	create_players(t_vm *vm)$/
+create_process	process.c	/^t_proc	*create_process(t_vm *vm, int num)$/
+delete_op	parse_op.c	/^void		delete_op(t_proc *proc)$/
+display_args	show.c	/^void		display_args(t_proc *proc, int n)$/
+dump	core.c	/^void	dump(t_vm *vm)$/
+exec_proc	core.c	/^void	exec_proc(t_vm *vm, t_proc *proc)$/
+exit_error	tools.c	/^void	exit_error(const char *s)$/
+fill_cur_op	parse_op.c	/^int			fill_cur_op(t_vm *vm, t_proc *proc)$/
+find_args	parse_op.c	/^int			find_args(t_vm *vm, t_proc *proc, int num, i/
+first_free_nb_player	parse_player.c	/^int		first_free_nb_player(t_vm *vm)$/
+free_all	tools.c	/^void	free_all(t_vm *vm)$/
+ft_str_isdigit	flib.c	/^int		ft_str_isdigit(char *str)$/
+ft_strargv	flib.c	/^int		ft_strargv(int argc, char **argv, char *str)$/
+get_data	player.c	/^char	*get_data(t_player *player, char *buff)$/
+get_dir	get_arg.c	/^void				get_dir(t_vm *vm, t_proc *proc, int num, i/
+get_ind	get_arg.c	/^void				get_ind(t_vm *vm, t_proc *proc, int num, i/
+get_indirect	get_arg.c	/^int					get_indirect(t_vm *vm, t_op *op, int nb_ar/
+get_nb_player	parse_player.c	/^int		get_nb_player(t_vm *vm, char **argv, int arg_/
+get_prog_size	player.c	/^int		get_prog_size(char *data)$/
+get_reg	get_arg.c	/^void				get_reg(t_vm *vm, t_proc *proc, int num, i/
+get_winner	corewar.c	/^void	get_winner(t_vm *vm)$/
+init_op	parse_op.c	/^void		init_op(t_op *op)$/
+init_process	process.c	/^void	init_process(t_vm *vm)$/
+init_socket	client.c	/^int		init_socket(void)$/
+init_vm	corewar.c	/^void	init_vm(t_vm *vm)$/
+is_free_nb_player	parse_player.c	/^int		is_free_nb_player(t_vm *vm, int nb)$/
+is_opcode	core.c	/^int		is_opcode(char data)$/
+kill_proc	process.c	/^void	kill_proc(t_vm *vm)$/
+list_proc	action_proc.c	/^void	list_proc(t_vm *vm, t_proc *proc)$/
+modulo	tools.c	/^int		modulo(int a, int b)$/
+move_pc	action_proc.c	/^int		move_pc(t_proc *proc)$/
+new_player	player.c	/^void	new_player(t_vm *vm, int nb, char *str)$/
+process_living	process.c	/^int		process_living(t_vm *vm)$/
+reset_live	flib.c	/^void	reset_live(t_vm *vm)$/
+run	core.c	/^void	run(t_vm *vm)$/
+search_nb_dump	check_arg.c	/^int		search_nb_dump(int argc, char **argv)$/
+search_nb_player	parse_player.c	/^int		search_nb_player(char **argv, int arg_num)$/
+search_players	parse_player.c	/^int		search_players(t_vm *vm, int argc, char **arg/
+search_vizu	check_arg.c	/^int		search_vizu(int argc, char **argv)$/
+send_mem	show.c	/^void		send_mem(t_vm *vm)$/
+send_num_player	show.c	/^void		send_num_player(t_vm *vm)$/
+send_player	client.c	/^void	send_player(t_vm *vm, int nb)$/
+send_to_socket	client.c	/^void	send_to_socket(t_vm *vm, char *payload, size_/
+set_ctd	action_proc.c	/^void	set_ctd(t_vm *vm)$/
+set_proc_id	action_proc.c	/^int		set_proc_id(t_vm *vm)$/
+show_mem	show.c	/^void		show_mem(t_vm *vm)$/
+show_operations	show.c	/^void		show_operations(t_proc *proc)$/
+srch_verbose	check_arg.c	/^int		srch_verbose(int argc, char **argv)$/
+usage	tools.c	/^void	usage(void)$/
+write_player	player.c	/^void	write_player(t_vm *vm, int nb, int num)$/
